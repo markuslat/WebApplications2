@@ -30,7 +30,13 @@ table {
   border: 1px solid black;
   border-collapse: collapse;
 }
-
+tableCell {
+  border: 1px solid #7f7f7f;
+  text-align: center;
+}
+.tableRow {
+  color: rgb(0, 0, 0);
+}
 td {
   font: "Helvetica";
   font-size: 30px;
