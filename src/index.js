@@ -203,6 +203,9 @@ function clearTable(table) {
       table.rows[i].cells[j].innerHTML = "";
     }
   }
+  elem.style.width = "0%";
+  time = 0;
+  counter = 0;
 }
 
 function updateClock() {

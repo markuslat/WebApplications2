@@ -25,12 +25,10 @@ body {
 }
 
 table {
-  margin-left: auto;
-  margin-right: auto;
   border: 1px solid black;
   border-collapse: collapse;
 }
-
+tr,
 td {
   font: "Helvetica";
   font-size: 30px;
@@ -39,7 +37,4 @@ td {
   height: 60px;
   text-align: center;
   vertical-align: center;
-}
-td:hover {
-  background-color: lightgray;
 }
