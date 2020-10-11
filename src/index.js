@@ -1,11 +1,6 @@
 import "./styles.css";
 
-document.getElementById("panel").innerHTML = `
-<h2>Tic Tac Toe</h2>
-<div>_______________</div>
-<div>Player 1: X</div>
-<div>Player 2: O</div>
-<div_______________div>`;
+document.getElementById("board").innerHTML = ` `;
 
 var body = document.body,
   table = document.createElement("table");
