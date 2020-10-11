@@ -33,11 +33,6 @@ function createtable() {
         var tableCell = Row.insertCell();
         var cellText = document.createTextNode("");
         tableCell.appendChild(cellText);
-        tableCell.style.border = "1px solid black";
-        tableCell.style.width = "60px";
-        tableCell.style.height = "60px";
-        tableCell.style.textAlign = "center";
-        tableCell.style.backgroundColor = "rgb(255,255,255)";
         if (i === 1 && j === 1) {
           tableCell.setAttribute("rowSpan", "1");
         }
@@ -65,8 +60,6 @@ function tableText(tableCell) {
     if (tableCell.innerHTML === "") {
       tableCell.innerHTML = "X";
       tableCell.style.backgroundColor = "rgb(124, 252, 0)";
-      tableCell.style.fontFamily = "Helvetica";
-      tableCell.style.fontSize = "30px";
       whoWon(table, tableCell);
       checkDraw(table);
       ClearTime(this);
@@ -79,8 +72,6 @@ function tableText(tableCell) {
     if (tableCell.innerHTML === "") {
       tableCell.innerHTML = "O";
       tableCell.style.backgroundColor = "rgb(250, 128, 114)";
-      tableCell.style.fontFamily = "Helvetica";
-      tableCell.style.fontSize = "30px";
       whoWon(table, tableCell);
       checkDraw(table);
       ClearTime(this);
