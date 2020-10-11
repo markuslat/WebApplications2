@@ -49,13 +49,13 @@ function onclick(table) {
   for (var i = 0; i < table.rows.length; i++) {
     for (var j = 0; j < table.rows[i].cells.length; j++) {
       table.rows[i].cells[j].onclick = function () {
-        tableText(this);
+        tableText(this, table);
       };
     }
   }
 }
 
-function tableText(tableCell) {
+function tableText(tableCell, table) {
   if (counter % 2 === 0) {
     if (tableCell.innerHTML === "") {
       tableCell.innerHTML = "X";
