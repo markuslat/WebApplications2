@@ -30,13 +30,7 @@ table {
   border: 1px solid black;
   border-collapse: collapse;
 }
-tableCell {
-  border: 1px solid #7f7f7f;
-  text-align: center;
-}
-.tableRow {
-  color: rgb(0, 0, 0);
-}
+
 td {
   font: "Helvetica";
   font-size: 30px;
@@ -44,6 +38,7 @@ td {
   width: 60px;
   height: 60px;
   text-align: center;
+  vertical-align: center;
 }
 td:hover {
   background-color: lightgray;

@@ -9,7 +9,7 @@ document.getElementById("panel").innerHTML = `
 
 var body = document.body,
   table = document.createElement("table");
-table.style.border = "5px solid black";
+table.style.border = "1px solid black";
 
 var clock = document.getElementById("clockdiv");
 var elem = document.getElementById("InnerProgressBar");
